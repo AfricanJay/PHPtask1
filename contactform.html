@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Us</title>
+</head>
+<body>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTQn7soqeJZyTcrkHTF7g6k37Ac72vLClT5OuE1zM-HFiXbpQtc" />
+  
+  <h3 style = "font-size: 50px; margin-bottom: 0; margin-top: 0;" >Contact African Jay</h3>
+  <form action="processform.php" method="POST">
+         <p>
+			<label for="first_name" style = "font-size: 20px;">First Name</label><br />
+			 <input type="text" name="first_name" placeholder="Enter Your First Name" />
+		</p>
+
+		<p>
+			<label for="last_name" style = "font-size: 20px;">Last Name</label><br />
+			 <input type="text" name="last_name" placeholder="Enter Your Last Name" />
+		</p>
+
+       
+		<p>
+			<label for="email" style = "font-size: 20px;">Email</label><br />
+			<input type="email" name="email" placeholder="Enter Your Email" required />
+		</p>
+
+        <p>
+            <label for="department" style = "font-size: 20px;">Department</label><br />
+
+             <select name="department">
+                <option>Select a department</option>
+                <option>Finance</option>
+                <option>Software</option>
+                <option>Marketing </option>
+                <option>Human Relations</option>
+              </select>
+        </p>
+         <p>
+            <label for="gender" style = "font-size: 20px;">Gender</label><br>
+            <input type="radio" name="gender"/>Male 
+            <input type="radio" name="gender"/>Female
+        </p>
+		<p>
+			<label for="email" style = "font-size: 20px;">Your Message</label><br />
+			<textarea name="message"></textarea>
+		</p>
+
+        <p>
+		
+            <input type="checkbox" name="terms"  required /> By Checking this box you agree to our terms and conditions     
+          </p>
+
+          <button>Submit</button>
+</form>
+</body>
+</html>
